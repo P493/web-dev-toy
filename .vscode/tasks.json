@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "test current opened file",
+            "type": "shell",
+            "command": "npm x -c 'jest --findRelatedTests ${relativeFile}'",
+            "group": "test"
+        }
+    ]
+}
